@@ -68,6 +68,6 @@ def winner(board)
   if won?(board) != false
     return winning_player
   elsif won?(board) == false
-    reaturn nil
+    return nil
   end
 end
