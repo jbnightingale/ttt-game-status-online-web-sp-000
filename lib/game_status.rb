@@ -62,7 +62,7 @@ end
 
 def winner(board)
   if win?(board) == true
-    return "#{board.win?}"
+    return "#{board.won?}"
   else
     false
   end
