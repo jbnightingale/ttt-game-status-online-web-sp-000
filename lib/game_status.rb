@@ -61,7 +61,7 @@ def over?(board)
 end
 
 def winner(board)
-  if win?(board) == true
+  if won?(board) == true
     return "#{board.won?}"
   else
     false
