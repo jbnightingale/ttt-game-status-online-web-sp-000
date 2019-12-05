@@ -65,7 +65,7 @@ def winner(board)
   win_index = won?(board)[0]
   winning_player = board[win_index]
 
-  if won?(board) != false
+  if won?(board) != false && over?(board) == true
     return winning_player
   end
 end
